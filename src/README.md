@@ -3,7 +3,7 @@
 Esta pasta contém o código do seu agente financeiro.
 
 ## setup do ollama
-
+```bash
 #1. instalar ollama(ollama.com)
 #2. baixar um modelo leve
 ollaa pull gpt-oss
@@ -19,7 +19,7 @@ ollama run gpt-oss "ola!
 
 ## Como Rodar
 
-``
+```bash
 # 1. Instalar dependências
 pip install streamlit pandas requests
 
